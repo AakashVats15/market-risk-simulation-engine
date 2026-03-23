@@ -1,5 +1,5 @@
 import numpy as np
-from src.backtesting import BacktestInput, backtest_summary
+from market_risk_simulation_engine.backtesting import BacktestInput, backtest_summary
 
 
 def load_data():

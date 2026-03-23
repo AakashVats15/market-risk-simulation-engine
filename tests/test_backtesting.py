@@ -1,12 +1,11 @@
 import numpy as np
-from src.backtesting import (
+from market_risk_simulation_engine.backtesting import (
     BacktestInput,
     count_exceptions,
     kupiec_pof_test,
     christoffersen_independence_test,
     backtest_summary
 )
-
 
 def test_exception_counting():
     pnl = np.array([1, -5, 2, -3])
